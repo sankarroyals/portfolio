@@ -165,8 +165,7 @@ const Card = styled.div`
         gap: 8px;
         width: 300px;
         border: 0.1px solid ${({ theme }) => theme.primary};;
-        background: rgba(133, 76, 230, 0.05);
-    }
+        background:  ${({ theme }) => theme.card_hover_bg};
 
     &:hover {
         transform: scale(1.02); 
