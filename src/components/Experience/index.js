@@ -49,6 +49,7 @@ const Title = styled.div`
     @media (max-width: 768px) {
         margin-top: 50px;
         font-size: 32px;
+        margin-top: 100px;
        margin-right:10px;
     }
 `;
