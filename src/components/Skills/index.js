@@ -163,15 +163,16 @@ const Skill = styled.div`
   @media (max-width: 768px) {
     max-width: 350px; 
     padding: 10px 24px; 
-    border: 1px solid #854CE6; 
-    background-color: rgba(133, 76, 230, 0.02);
+    border: 1px solid ${({ theme }) => theme.primary}; 
+    background-color: ${({ theme }) => theme.card_hover_bg};
 
   }
   @media (max-width: 500px) {
     max-width: 300px; 
     padding: 10px 20px; 
-    border: 1px solid #854CE6;
-    background-color: rgba(133, 76, 230, 0.02);
+    border: 1px solid ${({ theme }) => theme.primary}; 
+    background-color: ${({ theme }) => theme.card_hover_bg};
+
 
   }
 `;
