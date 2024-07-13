@@ -16,7 +16,7 @@ const Container = styled.div`
     padding: 40px 0px 0px 0px;
     
     @media (max-width: 960px) {
-        height: 600px;
+        height: 700px;
         padding: 20px 20px;
     }
 `;
@@ -47,9 +47,9 @@ const Title = styled.div`
     color: ${({ theme }) => theme.text_primary};
     margin-right:-450px;
     @media (max-width: 768px) {
-        margin-top: 50px;
-        font-size: 32px;
         margin-top: 100px;
+        font-size: 32px;
+        
        margin-right:10px;
     }
 `;
