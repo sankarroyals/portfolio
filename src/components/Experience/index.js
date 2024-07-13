@@ -17,7 +17,7 @@ const Container = styled.div`
     
     @media (max-width: 960px) {
         height: 700px;
-        padding: 20px 20px;
+        padding: 40px 20px;
     }
 `;
 
@@ -49,7 +49,6 @@ const Title = styled.div`
     @media (max-width: 768px) {
         margin-top: 100px;
         font-size: 32px;
-        
        margin-right:10px;
     }
 `;
