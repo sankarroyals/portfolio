@@ -6,7 +6,7 @@ export const Bio = {
     "MERN Full Stack Developer"
   ],
   description:
-  " Skilled Senior Engineer at Tiger Analytics, adept in building web applications (React, Node.js) and leveraging data (MongoDB). Cloud savvy (AWS) and a Python enthusiast. Active contributor on GitHub.",
+  " Skilled Lead Engineer at Tiger Analytics, adept in building web applications (React, Node.js) and leveraging data (MongoDB). Cloud savvy (AWS) and a Python enthusiast. Active contributor on GitHub.",
   github: "https://github.com/sankarroyals",
 };
 
@@ -145,8 +145,13 @@ export const experiences = [
     companyOrder: "1",
     roles: [
       {
+        position: "Lead Engineer",
+        date: "Jan 2025 - Present",
+        location: "Bangalore, Karnataka, India"
+      },
+      {
         position: "Senior Engineer",
-        date: "July 2023 - Present",
+        date: "July 2023 - Jan 2025",
         location: "Bangalore, Karnataka, India"
       },
       {
